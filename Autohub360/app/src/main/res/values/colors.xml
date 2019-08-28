@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6600</color>
+    <color name="colorPrimaryDark">#FF6600</color>
+    <!--<color name="colorAccent">#FF6600</color>-->
+    <color name="colorAccent">#FF6600</color>
+    <color name="background_white_color">#FFFFFF</color>
+    <color name="rectanglebox">#35291f</color>
+    <color name="vin">#f8f8f8</color>
+    <color name="pendingpay">#ED71AE</color>
+    <color name="textcolor">#474747</color>
+    <color name="hintcolor">#B7B7B7</color>
+    <color name="gray_text">#454545</color>
+    <color name="camera">#AFAFAF</color>
+    <color name="price_color">#EFEFEF</color>
+    <color name="blue_stand_text">#05416B</color>
+    <color name="green_stand_text">#8ABD39</color>
+    <color name="textbox">#EFEFEF</color>
+    <color name="blackcolor">#000000</color>
+    <color name="spin_text">#636e72</color>
+    <color name="view_gray">#F7F7F7</color>
+    <color name="grey">#dadada</color>
+    <color name="greyblack">#888888</color>
+    <color name="list_highlight_color">#f6decd</color>
+
+
+    <color name="sky_blue">#25D7FB</color>
+    <color name="orange">#FF6600</color>
+    <color name="peach_blue">#04CACC</color>
+    <color name="red">#CC042E</color>
+    <color name="light_green">#04CC67</color>
+    <color name="pink">#DB2878</color>
+
+    <color name="status_placed">#0f3b76</color>
+    <color name="status_approved">#56a70e</color>
+    <color name="status_closed">#f61c05</color>
+
+
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+</resources>

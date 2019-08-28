@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SrinarApp</string>
+    <string name="login_head">Login</string>
+    <string name="login_sub_head">Give the information for Login!!</string>
+    <string name="terms"><![CDATA[By signing in you agree to the terms & conditions and privacy policy of Srinar Electronics]]></string>
+    <string name="dash_head">Dashboard</string>
+    <string name="dash_sub_head">Information for Status!</string>
+    <string name="dash1">Quality Checker</string>
+    <string name="dash2">Machining</string>
+    <string name="dash3">Electroplating</string>
+    <string name="dash4">Assembling</string>
+    <string name="dash5">Status Report</string>
+    <string name="machine">Machining Part</string>
+    <string name="machine_sub_head">Information for Work Status</string>
+    <string name="superadminpage"><u>Go To Super Admin Dashboard</u></string>
+    <string name="viewmac"><u>View Machining</u></string>
+    <string name="view_ass"><u>View Assembling</u></string>
+    <string name="viewele"><u>View Electroplating</u></string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="upload_mac_sheet">Upload Machine Sheet</string>
+    <string name="single_upload"><u>Single Part Upload</u></string>
+    <string name="view_upload"><u>View Part Details</u></string>
+</resources>

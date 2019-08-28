@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:weightSum="12">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/carimg_iv"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rectangle_box"/>
+
+
+                <TextView
+                    android:id="@+id/carparts_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/viewcar"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/caryear_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Year"
+                            android:textSize="@dimen/_12sdp"/>
+
+
+                        <TextView
+                            android:id="@+id/caryaer_val"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2015"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/textcolor"/>
+
+
+
+
+                        <TextView
+                            android:id="@+id/carbrand_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Car Brand"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textSize="@dimen/_12sdp"/>
+
+
+                        <TextView
+                            android:id="@+id/carbrand_val"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nissan"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/textcolor"/>
+
+
+
+                        <TextView
+                            android:id="@+id/mileage_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mileage"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textSize="@dimen/_12sdp"/>
+
+
+                        <TextView
+                            android:id="@+id/mileage_val"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2015"
+                            android:textSize="@dimen/_11sdp"
+                            android:textColor="@color/textcolor"/>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/carmake_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Car Location"
+                            android:textSize="@dimen/_12sdp" />
+
+
+                        <TextView
+                            android:id="@+id/carmake_val"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nissan"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/textcolor"/>
+
+
+
+
+
+
+                        <TextView
+                            android:id="@+id/model_headtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Model"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textSize="@dimen/_12sdp"/>
+
+
+                        <TextView
+                            android:id="@+id/model_valtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="X6"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/textcolor"/>
+
+
+
+
+                        <TextView
+                            android:id="@+id/carvin_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Vin No"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textSize="@dimen/_12sdp"/>
+
+
+                        <TextView
+                            android:id="@+id/carvin_val"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/_11sdp"
+                            android:textColor="@color/textcolor"/>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/price_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$250"
+                android:paddingTop="@dimen/_3sdp"
+                android:paddingBottom="@dimen/_3sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:textColor="@color/background_white_color"
+                android:textSize="@dimen/_15sdp"
+                android:background="@color/colorAccent"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/status_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/carstatus_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/del_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/red_del_btn"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/hintcolor"/>
+
+
+
+
+</LinearLayout>

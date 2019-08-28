@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_below="@+id/head_lr"
+        android:gravity="center"
+        android:layout_above="@+id/bottom"
+        android:background="@drawable/dash_border">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:background="@drawable/upload_car_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:id="@+id/lights_box1"
+                                android:textColor="@color/background_white_color"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_3sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:layout_gravity="left"
+                                android:textSize="@dimen/_10sdp"
+                                android:paddingTop="@dimen/_3sdp"
+                                android:paddingBottom="@dimen/_3sdp"
+                                android:text="Head Lamps"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/head_pic1_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="false"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box" />
+
+                                <ImageView
+                                    android:id="@+id/head_plus1"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"   />
+
+
+                                <CheckBox
+                                    android:id="@+id/chk_head1"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/head_pic2_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box" />
+
+                                <ImageView
+                                    android:id="@+id/head_plus2"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"   />
+
+
+                                <CheckBox
+                                    android:id="@+id/chk_head2"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:background="@drawable/upload_car_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:id="@+id/lights_box2"
+                                android:textColor="@color/background_white_color"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_3sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:textSize="@dimen/_9sdp"
+                                android:paddingTop="@dimen/_3sdp"
+                                android:paddingBottom="@dimen/_3sdp"
+                                android:text="Brake Lights"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/brake_pic1_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="false"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box" />
+
+                                <ImageView
+                                    android:id="@+id/brake_plus1"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"   />
+
+
+                                <CheckBox
+                                    android:id="@+id/chk_brake1"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/brake_pic2_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box" />
+
+                                <ImageView
+                                    android:id="@+id/brake_plus2"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"   />
+
+
+                                <CheckBox
+                                    android:id="@+id/chk_brake2"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:background="@drawable/upload_car_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:id="@+id/lights_box3"
+                                android:textColor="@color/background_white_color"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_3sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:textSize="@dimen/_9sdp"
+                                android:paddingTop="@dimen/_3sdp"
+                                android:paddingBottom="@dimen/_3sdp"
+                                android:text="Headlight Assembly"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/headlight_pic1_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="false"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box" />
+
+                                <ImageView
+                                    android:id="@+id/headlight_plus1"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"   />
+
+                                <CheckBox
+                                    android:id="@+id/chk_headlight1"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/headlight_pic2_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box" />
+
+                                <ImageView
+                                    android:id="@+id/headlight_plus2"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"   />
+
+
+                                <CheckBox
+                                    android:id="@+id/chk_headlight2"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:textColor="@color/textcolor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="@dimen/_12sdp"
+                                android:text="Others"/>
+
+
+                            <View
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="1.5dp"
+                                android:background="@color/camera"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:gravity="center">
+
+
+                                <ImageView
+                                    android:id="@+id/others_pic1_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="false"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box"/>
+
+                                <ImageView
+                                    android:id="@+id/others_plus1"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"/>
+
+                                <CheckBox
+                                    android:id="@+id/chk_others1"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/others_pic2_iv"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/camera_box"/>
+
+                                <ImageView
+                                    android:id="@+id/others_plus2"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_width="@dimen/_18sdp"
+
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerVertical="true"/>
+
+                                <CheckBox
+                                    android:id="@+id/chk_others2"
+                                    android:layout_width="@dimen/_15sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:button="@drawable/checkbox_bg"
+                                    android:scaleType="fitEnd"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:background="@drawable/edittext_box"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/lights_others"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Enter Parts Name"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:textSize="@dimen/_12sdp"
+                                android:background="@android:color/transparent"
+                                android:padding="@dimen/_10sdp"
+                                />
+
+                        </LinearLayout>
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

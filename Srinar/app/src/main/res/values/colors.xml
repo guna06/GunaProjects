@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#05416b </color>
+    <color name="colorPrimaryDark">#05416b </color>
+    <color name="colorAccent">#0694f5 </color>
+
+    <color name="textcolr">#3c3c3c</color>
+    <color name="soft_grey">#777</color>
+    <color name="soft_grey_choose">#D0D0D0</color>
+    <color name="black">#000000</color>
+    <color name="green">#7acd0e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="listbg">#f6fafd</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="red">#ff0000 </color>
+    <color name="fillcolor">#f3f4f4</color>
+    <color name="bluetext">#001be5</color>
+    <color name="greentext">#2a9334</color>
+    <color name="bluepanel">#c1d5e3</color>
+    <color name="greenpanel">#c1e1e3 </color>
+    <color name="orangepanel">#e3c8c1</color>
+</resources>

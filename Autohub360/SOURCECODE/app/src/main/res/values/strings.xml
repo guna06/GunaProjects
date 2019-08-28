@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Autolane360</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="Login">Login</string>
+    <string name="date">Select Date</string>
+    <string name="mileage">Select Mileage *</string>
+    <string name="trim">Trim</string>
+    <string name="location">Location</string>
+    <string name="vinstatus">Vin Status</string>
+    <string name="vehicleclass">Vehicle Class</string>
+    <string name="interior">Interior Color</string>
+    <string name="exterior">Exterior Color</string>
+    <string name="carprice">Car Price ($) *</string>
+    <string name="delv_est">Delivery Estimate</string>
+    <string name="damage">Primary Damage</string>
+    <string name="sec_damege">Secondary Damage</string>
+    <string name="dealer_info">Dealer Info</string>
+    <string name="description">Description</string>
+    <string name="viewimg">View Images</string>
+</resources>

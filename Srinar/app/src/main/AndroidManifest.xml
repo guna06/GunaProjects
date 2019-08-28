@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sqindia.srinarapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+
+        <activity android:name=".SuperAdmin.SplashActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SuperAdmin.LoginActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.DashboardActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateHidden|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".MachiningModule.MachiningEntryActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".ElectroplatingModule.ElectroplateEntryActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.AdminDashboard"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.AddMachine"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.ViewMAchineEntry"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.ViewOperatorEntry"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".MachiningModule.ViewMachineJob"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".ElectroplatingModule.ViewElectroplateJob"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".AssemblingModule.AssemblingEntryActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".AssemblingModule.ViewAssemblingJob"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.AddOperator"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.StatusReportActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".SuperAdmin.FileUploadActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".SuperAdmin.AddOperatorNew"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.ActivityNew"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name=".SuperAdmin.ViewManualReport"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name=".SuperAdmin.QADirection"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.ViewParts"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+
+
+        <activity
+            android:name=".SuperAdmin.AddSingleParts"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".MachiningModule.QcMachineJob"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".ElectroplatingModule.QcElectroplateJob"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".AssemblingModule.QcAssemblingJob"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.NewStatusReportActivity"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".SuperAdmin.DispatchProduct"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="vertical">
+
+
+               <!-- <TextView
+                    android:id="@+id/date_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:singleLine="false"
+                    android:drawableRight="@drawable/date_icon"
+                    android:textColorHint="@color/hintcolor"
+                    android:imeOptions="actionDone"
+                    android:textColor="@color/textcolor"
+                    android:hint="Select Date"
+                    android:textSize="@dimen/_15sdp"/>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@color/hintcolor"/>
+-->
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_mileage"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_mileage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textColor="@color/textcolor"
+                        android:hint="@string/mileage"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_location"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:inputType="textCapSentences"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textColor="@color/textcolor"
+                        android:hint="@string/location" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_vinstatus"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_vinstatus"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:textSize="@dimen/_15sdp"
+                        android:maxLength="17"
+                        android:textColorHint="@color/hintcolor"
+                        android:textColor="@color/textcolor"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/vinstatus" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+               <!-- <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_vehicleclass"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_vehicleclass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:inputType="textCapSentences"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textColor="@color/textcolor"
+                        android:hint="@string/vehicleclass" />
+                </android.support.design.widget.TextInputLayout>-->
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_interior"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_interior"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:inputType="textCapSentences"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textColor="@color/textcolor"
+                        android:hint="@string/interior" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_exterior"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_exterior"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:inputType="textCapSentences"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textColor="@color/textcolor"
+                        android:hint="@string/exterior"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_carprice"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/input_carprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:inputType="number"
+                        android:textSize="@dimen/_15sdp"
+                        android:textColorHint="@color/hintcolor"
+                        android:textColor="@color/textcolor"
+                        android:hint="@string/carprice" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

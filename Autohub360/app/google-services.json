@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "1069727173083",
+    "firebase_url": "https://autohub-6e3ac.firebaseio.com",
+    "project_id": "autohub-6e3ac",
+    "storage_bucket": "autohub-6e3ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069727173083:android:154de1d9f6497bce",
+        "android_client_info": {
+          "package_name": "autohubb.vinture.com.autohubb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069727173083-80fgepq2d7031epdn5i1jbn2u38otpv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "autohubb.vinture.com.autohubb",
+            "certificate_hash": "bdea5406f5dab54ce946311210772de114300ede"
+          }
+        },
+        {
+          "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUN-IS4l3O_uamQ7QpwlAJaCgGTbv-jf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069727173083:android:9ea84c029f942c39",
+        "android_client_info": {
+          "package_name": "net.simplifiedcoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069727173083-dg4dfl8o6avvado297d4qkbk6fp87ver.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedcoding",
+            "certificate_hash": "438cf7e2c9dfc70cdfb7631505b1c2e0c3b6664f"
+          }
+        },
+        {
+          "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUN-IS4l3O_uamQ7QpwlAJaCgGTbv-jf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069727173083:android:6fd8868894e92239",
+        "android_client_info": {
+          "package_name": "net.simplifiedcoding.firebasecloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069727173083-ok34a1q3o8fl2haupg79rdg4qm3dcrlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedcoding.firebasecloudmessaging",
+            "certificate_hash": "438cf7e2c9dfc70cdfb7631505b1c2e0c3b6664f"
+          }
+        },
+        {
+          "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUN-IS4l3O_uamQ7QpwlAJaCgGTbv-jf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069727173083:android:a7739a8923496a39",
+        "android_client_info": {
+          "package_name": "vinetur.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069727173083-5figckf3pu6pou0uv6lscst3aonhh6h2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vinetur.com.myapplication",
+            "certificate_hash": "bdea5406f5dab54ce946311210772de114300ede"
+          }
+        },
+        {
+          "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUN-IS4l3O_uamQ7QpwlAJaCgGTbv-jf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069727173083-5cdlknqd06hfob3h4f351sbj18j8qim0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

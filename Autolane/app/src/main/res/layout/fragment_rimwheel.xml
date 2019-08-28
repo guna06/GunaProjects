@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_below="@+id/head_lr"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_above="@+id/bottom">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:id="@+id/rim_box1"
+                                android:textColor="@color/textcolor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:gravity="center"
+                                android:drawableLeft="@drawable/orange_stand"
+                                android:layout_gravity="left"
+                                android:textSize="@dimen/_16sdp"
+                                android:text="Brakes"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:weightSum="6.5">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/break_pic1_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box" />
+
+                                    <ImageView
+                                        android:id="@+id/break_plus1"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+
+                                    <CheckBox
+                                        android:id="@+id/chk_break1"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="0.5">
+
+
+
+                                <View
+                                    android:layout_width="@dimen/_1sdp"
+                                    android:layout_height="@dimen/_120sdp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/colorPrimary"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:layout_marginLeft="@dimen/_15sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/break_pic2_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box"/>
+
+
+                                    <ImageView
+                                        android:id="@+id/break_plus2"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+                                    <CheckBox
+                                        android:id="@+id/chk_break2"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp">
+
+
+                            <TextView
+                                android:id="@+id/rim_box2"
+                                android:textColor="@color/textcolor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:gravity="center"
+                                android:drawableLeft="@drawable/orange_stand"
+                                android:layout_gravity="left"
+                                android:textSize="@dimen/_16sdp"
+                                android:text="Suspensions"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:weightSum="6.5">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/suspense_pic1_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box" />
+
+                                    <ImageView
+                                        android:id="@+id/suspense_plus1"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+
+                                    <CheckBox
+                                        android:id="@+id/chk_suspense1"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="0.5">
+
+
+
+                                <View
+                                    android:layout_width="@dimen/_1sdp"
+                                    android:layout_height="@dimen/_120sdp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/colorPrimary"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:layout_marginLeft="@dimen/_15sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/suspense_pic2_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box"/>
+
+
+                                    <ImageView
+                                        android:id="@+id/suspense_plus2"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+                                    <CheckBox
+                                        android:id="@+id/chk_suspense2"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp">
+
+
+                            <TextView
+                                android:id="@+id/rim_box3"
+                                android:textColor="@color/textcolor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:gravity="center"
+                                android:drawableLeft="@drawable/orange_stand"
+                                android:layout_gravity="left"
+                                android:textSize="@dimen/_16sdp"
+                                android:text="Rims"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:weightSum="6.5">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/rims_pic1_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box" />
+
+                                    <ImageView
+                                        android:id="@+id/rims_plus1"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+
+                                    <CheckBox
+                                        android:id="@+id/chk_rims1"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="0.5">
+
+
+
+                                <View
+                                    android:layout_width="@dimen/_1sdp"
+                                    android:layout_height="@dimen/_120sdp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/colorPrimary"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:layout_marginLeft="@dimen/_15sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/rims_pic2_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box"/>
+
+
+                                    <ImageView
+                                        android:id="@+id/rims_plus2"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+                                    <CheckBox
+                                        android:id="@+id/chk_rims2"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp">
+
+
+                            <TextView
+                                android:id="@+id/rim_box4"
+                                android:textColor="@color/textcolor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:gravity="center"
+                                android:drawableLeft="@drawable/orange_stand"
+                                android:layout_gravity="left"
+                                android:textSize="@dimen/_16sdp"
+                                android:text="Radios"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:weightSum="6.5">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/wheels_pic1_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box" />
+
+                                    <ImageView
+                                        android:id="@+id/wheels_plus1"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+
+                                    <CheckBox
+                                        android:id="@+id/chk_wheels1"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="0.5">
+
+
+
+                                <View
+                                    android:layout_width="@dimen/_1sdp"
+                                    android:layout_height="@dimen/_120sdp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/colorPrimary"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:layout_marginLeft="@dimen/_15sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/wheels_pic2_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box"/>
+
+
+                                    <ImageView
+                                        android:id="@+id/wheels_plus2"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+                                    <CheckBox
+                                        android:id="@+id/chk_wheels2"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+
+                                android:textColor="@color/textcolor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:gravity="center"
+                                android:drawableLeft="@drawable/orange_stand"
+                                android:layout_gravity="left"
+                                android:textSize="@dimen/_16sdp"
+                                android:text="Others"/>
+
+
+
+                            <EditText
+                                android:id="@+id/rim_others"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="Enter Parts Name"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:textSize="@dimen/_16sdp"
+                                android:background="@drawable/edittext_box"
+                                android:padding="@dimen/_10sdp"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:weightSum="6.5">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/others_pic1_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box" />
+
+                                    <ImageView
+                                        android:id="@+id/others_plus1"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+
+                                    <CheckBox
+                                        android:id="@+id/chk_others1"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="0.5">
+
+
+
+                                <View
+                                    android:layout_width="@dimen/_1sdp"
+                                    android:layout_height="@dimen/_120sdp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/colorPrimary"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:layout_marginLeft="@dimen/_15sdp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/others_pic2_iv"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_height="@dimen/_100sdp"
+                                        android:layout_width="@dimen/_100sdp"
+                                        android:scaleType="centerCrop"
+                                        android:adjustViewBounds="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/camera_box"/>
+
+
+                                    <ImageView
+                                        android:id="@+id/others_plus2"
+                                        android:layout_height="@dimen/_30sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:src="@drawable/add_btn"
+                                        android:layout_centerInParent="true"
+                                        android:layout_centerVertical="true"/>
+
+                                    <CheckBox
+                                        android:id="@+id/chk_others2"
+                                        android:layout_width="@dimen/_22sdp"
+                                        android:layout_height="@dimen/_22sdp"
+                                        android:button="@drawable/checkbox_bg"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentTop="true"/>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

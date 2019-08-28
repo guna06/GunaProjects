@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f58220</color>
+    <color name="colorPrimaryDark">#f58220</color>
+    <color name="colorAccent">#262320</color>
+    <color name="background_white_color">#FFFFFF</color>
+    <color name="rectanglebox">#35291f</color>
+    <color name="vin">#f8f8f8</color>
+    <color name="textcolor">#474747</color>
+    <color name="hintcolor">#B7B7B7</color>
+    <color name="gray_text">#454545</color>
+    <color name="camera">#AFAFAF</color>
+    <color name="price_color">#EFEFEF</color>
+    <color name="blue_stand_text">#05416B</color>
+    <color name="green_stand_text">#8ABD39</color>
+    <color name="textbox">#EFEFEF</color>
+    <color name="blackcolor">#000000</color>
+    <color name="spin_text">#636e72</color>
+    <color name="view_gray">#F7F7F7</color>
+</resources>

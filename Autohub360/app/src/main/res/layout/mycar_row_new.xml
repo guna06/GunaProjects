@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/greyblack"/>
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#F7F7F7"
+      android:paddingTop="@dimen/_5sdp"
+      android:paddingBottom="@dimen/_5sdp"
+      android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/carname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/textcolor"
+          android:textSize="@dimen/_16sdp"
+          android:layout_marginLeft="@dimen/_10sdp"
+          android:text="Sample text"
+          android:drawablePadding="@dimen/_5sdp"
+          android:drawableLeft="@drawable/orange_vert"/>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="8"
+          android:orientation="horizontal">
+
+
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="6"
+              android:orientation="vertical">
+
+
+
+              <TextView
+                  android:id="@+id/vinno_tv"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="#7B7B7B"
+                  android:layout_marginTop="@dimen/_3sdp"
+                  android:layout_marginLeft="@dimen/_15sdp"
+                  android:textSize="@dimen/_12sdp"
+                  android:text="Sample text"/>
+          </LinearLayout>
+
+
+
+          <LinearLayout
+              android:id="@+id/lnr_driver"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:layout_gravity="bottom"
+              android:gravity="right"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:id="@+id/driver_info"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right"
+                  android:layout_marginRight="@dimen/_10sdp"
+                  android:background="@drawable/driver_info"/>
+
+          </LinearLayout>
+
+
+
+      </LinearLayout>
+  </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/greyblack"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:weightSum="10">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/carimg_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="5"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1">
+
+
+                                <ImageView
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="@dimen/_15sdp"
+                                    android:background="@drawable/left_nav_1"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="3">
+
+                                <TextView
+                                    android:id="@+id/cartype_tv"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:singleLine="true"
+                                    android:gravity="left"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="@dimen/_15sdp"
+                                    android:text=""/>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:id="@+id/info_icon"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/info_icon"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/mileagehead_tv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/blackcolor"
+                                    android:textSize="@dimen/_11sdp"
+                                    android:text="Actual Mileage"/>
+
+                                <TextView
+                                    android:id="@+id/mileageval_tv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/gray_text"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:text="96000Miles"/>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/mileagerange_head"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/blackcolor"
+                                    android:textSize="@dimen/_11sdp"
+                                    android:text="Mileage Range"/>
+
+                                <TextView
+                                    android:id="@+id/mileagerange_val"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/gray_text"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:text=""/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/location_head"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/blackcolor"
+                                    android:textSize="@dimen/_11sdp"
+                                    android:text="Location"/>
+
+
+                                <TextView
+                                    android:id="@+id/location_val"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/gray_text"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:text="Abuja"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp">
+
+                                <TextView
+                                    android:id="@+id/orderdetails_tv"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:layout_marginRight="@dimen/_4sdp"
+                                    android:singleLine="true"
+                                    android:padding="@dimen/_3sdp"
+                                    android:background="@drawable/home_btn_bg"
+                                    android:textColor="@color/background_white_color"
+                                    android:textSize="@dimen/_14sdp"
+                                    android:text="Order Parts"/>
+
+                            </LinearLayout>
+
+
+
+
+
+                         <!--   <TextView
+                                android:id="@+id/orderdetails_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:background="@drawable/home_btn_bg"
+                                android:textColor="@color/background_white_color"
+                                android:textSize="@dimen/_14sdp"
+                                android:text="Order Parts"/>-->
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/company_name_tv_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/_11sdp"
+                android:text="Company"/>
+
+            <TextView
+                android:id="@+id/company_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greyblack"
+                android:textSize="@dimen/_12sdp"
+                android:text=""/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderservice_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:padding="@dimen/_3sdp"
+                android:background="@drawable/orange_button"
+                android:textColor="@color/background_white_color"
+                android:textSize="@dimen/_14sdp"
+                android:text="Order Service Pack"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

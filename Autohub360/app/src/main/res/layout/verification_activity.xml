@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_back"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/bg_bor"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:id="@+id/back_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@drawable/whiteback_arrow"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-35dp"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/background_white_color"
+                android:text="@string/registertitle"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/blackcolor"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableLeft="@drawable/orange_vert"
+            android:textSize="@dimen/_17sdp"
+            android:text="Confirm Account"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/_17sdp"
+            android:text="Enter your Verification Code"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLength="1"/>
+
+
+
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLength="1"/>
+
+
+            <EditText
+                android:id="@+id/edt3"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLength="1"/>
+
+            <EditText
+                android:id="@+id/edt4"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLength="1"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/btn_bg">
+
+
+
+
+            <TextView
+                android:id="@+id/verify_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/verify"
+                android:textColor="@color/background_white_color"
+                android:textSize="@dimen/_17sdp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="-10dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Note: OTP will expire in 5 Minutes"
+                android:textColor="@color/greyblack"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+            <TextView
+                android:id="@+id/resend_otp_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="10dp"
+                android:text="@string/resend"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_15sdp"/>
+
+
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/avi_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:indicatorColor="@color/orange"
+                app:indicatorName="BallSpinFadeLoaderIndicator"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

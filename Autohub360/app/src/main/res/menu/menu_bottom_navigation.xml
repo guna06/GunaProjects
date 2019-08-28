@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/action_mycars"
+        android:enabled="true"
+        android:icon="@drawable/icon_dash_1"
+        android:title="My Cars"/>
+
+
+    <item
+        android:id="@+id/action_track"
+        android:enabled="true"
+        android:icon="@drawable/myorders_bottom"
+        android:title="My Orders"/>
+
+
+    <item
+        android:id="@+id/action_notification"
+        android:enabled="true"
+        android:icon="@drawable/icon_dash_3"
+        android:title="Notification"
+        />
+
+
+    <item
+        android:id="@+id/action_shop"
+        android:enabled="true"
+        android:icon="@drawable/icon_dash_4"
+        android:title="Shop"
+        />
+
+
+   <!-- <item
+        android:id="@+id/action_mylibrary"
+        android:enabled="true"
+        android:icon="@drawable/icon_dash_4"
+        android:title="My Library"-->
+        />
+</menu>

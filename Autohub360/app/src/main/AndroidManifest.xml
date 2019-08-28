@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="autohubb.vinture.com.autohubb">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        tools:replace="android:icon,android:theme"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="autohubb.vinture.com.autohubb.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        //User Module:
+        <activity
+            android:name="autohubb.vinture.com.autohubb.UserModule.LoginActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.UserModule.RegisterActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.UserModule.VerifyOTPActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        //User Module:
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.RegisterCarActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.activity.MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.activity.RegisterCarActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.activity.OrderPartsActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.PrivateCarRegisterActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.CommercialCarListActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppFullScreenTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.OrderServicePack"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.OrderPartsOne"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.activity.DriverDetailsActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"></activity>
+
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.CreateCompanyActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.UpdateCompanyActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.MyOrdersModule.AcceptPageActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.DriversPageActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.VehicleModule.AddDriverActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.Shop.ViewCartActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.Cart.ShippingMethod"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.activity.PaymentsInfoActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.MyOrdersModule.ShippingAddressActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.user.ShippingAddress"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".MyOrdersModule.OrderPageActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        //navigation
+        <activity
+            android:name="autohubb.vinture.com.autohubb.navigation.CarLinksActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.navigation.ReceiptsActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".MyOrdersModule.PriceQuotedPageActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".Shop.SingleItemActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="autohubb.vinture.com.autohubb.MyOrdersModule.PlacedPageActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden|stateVisible|adjustPan"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

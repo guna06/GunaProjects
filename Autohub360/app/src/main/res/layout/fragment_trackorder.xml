@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/noparts_found"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nodata_icon"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:id="@+id/nodata_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/greyblack"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Info!!"/>
+
+
+        <TextView
+            android:id="@+id/nodata_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_19sdp"
+            android:textColor="@color/blackcolor"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Under Development"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

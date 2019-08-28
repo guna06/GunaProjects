@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AutoParts360</string>
+    <string name="mileage">Mileage *</string>
+    <string name="Uploadcar">Upload Car Parts</string>
+    <string name="uploadcarpic">Upload Car Pic</string>
+    <string name="vin_pic">Upload Vin Pic</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="price">$ Car Price *</string>
+    <string name="Login">Login</string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="dashboard">Dashboard</string>
+    <string name="viewcar"><u>View Car Parts</u></string>
+</resources>

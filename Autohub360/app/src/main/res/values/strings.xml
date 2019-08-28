@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AutoHub360</string>
+    <string name="login">Login</string>
+    <string name="register">Register Your Car</string>
+    <string name="splashone">Auto Hubb360</string>
+    <string name="submit">Submit</string>
+    <string name="registertitle">Register</string>
+    <string name="content_warning">By Signing up you agree to our</string>
+    <string name="content_warning2"><u>Privach Policy</u></string>
+    <string name="verify">Verify</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cartruck"><![CDATA[Cars & Trucks]]></string>
+    <string name="resend"><u>Resend OTP?</u></string>
+</resources>
